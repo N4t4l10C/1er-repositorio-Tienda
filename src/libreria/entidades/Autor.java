@@ -17,9 +17,6 @@ public class Autor {
     
     protected boolean alto;
     
-    protected int algoNuevo;
-    protected long otroNuevo;
-    
     // Constructores
     public Autor() {
     }
