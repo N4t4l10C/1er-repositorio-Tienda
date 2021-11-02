@@ -1,7 +1,6 @@
 package libreria.entidades;
 
 import com.sun.istack.internal.NotNull;
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -17,6 +16,9 @@ public class Autor {
     protected String nombre;
     
     protected boolean alto;
+    
+    protected int algoNuevo;
+    protected long otroNuevo;
     
     // Constructores
     public Autor() {
